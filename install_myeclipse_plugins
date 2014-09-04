@@ -1,0 +1,12 @@
+title:MyEclipse安装Vrapper插件即VIM.
+
+  在MyEclipse平台下有两个途径能快速提高开发效率。一个是使用MyEclipse丰富的快捷键。另一个是使用MyEclipse下的各种插件。
+vrapper是MyEclipse的一个插件，他能让MyEclpse有像vim一样的快速编辑功能。
+ 
+方法/步骤: 
+  在MyEclipse或者eclipse中安装插件有两种方式，一种是在线安装（在MyEclipse的help->MyEclipse Configration Center中操作
+或者在eclipse markplace中install）另一种就是下载插件的离线包，然后自己手动安装。
+1）在线安装---我采用的是在help->eclipse markplace->里面输入vim 查询然后找到相应插件 然后点击install即可，此方法需要联网。
+2）离线安装---在下载下来的离线安装包中包含两个文件夹freatures和plugins，将这两个目录(最好把它们放在一个文件夹内
+如vimPlugin*)复制到MyEclipse安装目录下的dropins目录下就行了。重启MyEclipse你会发现工具栏中vrapper插件的图标即vim，
+注意：插件图标被按下，那么vim模式就被开启，反之关闭。
